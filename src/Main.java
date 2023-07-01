@@ -1,30 +1,21 @@
+import java.util.Scanner;
+
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
+        // Usando la clase Scanner ----------------------------------------------------------------
+        Scanner console = new Scanner(System.in);
 
-        // Variable de tipo entero
-        int variableEntera = 100;
-        System.out.println("Mi varibale entera: " + variableEntera);
+        System.out.println("Escribe tu nombre:");
+        var user = console.nextLine();
+        System.out.println("Nombre del usuario: " + user);
 
-        // Variable de tipo cadena
-        String variableCadena = "Hola";
-        System.out.println("Mi varibale cadena: " + variableCadena);
-
-        // Variable de tipo var a partir de JDK 10
-        var variableEnteraVar = 50;
-        System.out.println("Mi varibale entera (var): " + variableEnteraVar);
-
-        // Al definir nombre de las variables considerar lo siguiente:
-        // 1. No empezar con moyúsculas
-        // 2. No empezar con números
-        // 1. No empezar con caracteres especiales
-
-        //-------------------------------------------------------------------------------------------
-
-        var nombre = "Karla";
-        System.out.println("Nombre: \n" + nombre); // Salto de línea
-        System.out.println("Nombre: \t" + nombre); // Añade tabulación
-        System.out.println("Nombre: \b" + nombre); // Caracter de retroceso, regresa una entrada
+        // Tarea de practica
+        System.out.println("Proporciona el titulo:");
+        var title = console.nextLine();
+        System.out.println("Proporciona el autor");
+        var author = console.nextLine();
+        System.out.println(title + " fue escrito por " + author);
     }
 }
