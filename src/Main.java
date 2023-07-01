@@ -2,16 +2,29 @@
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        // Press Alt+Intro with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.println("Hello and welcome!");
 
-        // Press Mayús+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 0; i <= 5; i++) {
+        // Variable de tipo entero
+        int variableEntera = 100;
+        System.out.println("Mi varibale entera: " + variableEntera);
 
-            // Press Mayús+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
-        }
+        // Variable de tipo cadena
+        String variableCadena = "Hola";
+        System.out.println("Mi varibale cadena: " + variableCadena);
+
+        // Variable de tipo var a partir de JDK 10
+        var variableEnteraVar = 50;
+        System.out.println("Mi varibale entera (var): " + variableEnteraVar);
+
+        // Al definir nombre de las variables considerar lo siguiente:
+        // 1. No empezar con moyúsculas
+        // 2. No empezar con números
+        // 1. No empezar con caracteres especiales
+
+        //-------------------------------------------------------------------------------------------
+
+        var nombre = "Karla";
+        System.out.println("Nombre: \n" + nombre); // Salto de línea
+        System.out.println("Nombre: \t" + nombre); // Añade tabulación
+        System.out.println("Nombre: \b" + nombre); // Caracter de retroceso, regresa una entrada
     }
 }
