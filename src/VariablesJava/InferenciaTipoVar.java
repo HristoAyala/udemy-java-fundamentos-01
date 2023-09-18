@@ -1,3 +1,5 @@
+package VariablesJava;
+
 public class InferenciaTipoVar {
     public static void test() {
         var numeroEntero = 15;

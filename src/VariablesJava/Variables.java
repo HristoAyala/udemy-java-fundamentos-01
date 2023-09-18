@@ -1,3 +1,5 @@
+package VariablesJava;
+
 public class Variables {
     public static void test() {
         // Variable de tipo entero

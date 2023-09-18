@@ -1,3 +1,5 @@
+package TiposPrimitivosJava;
+
 public class TiposNumericosEnteros {
     public static void test() {
         //Tipos primitivos enteros: byte (8bits), short(16bits), int(16bits), long(32bits)

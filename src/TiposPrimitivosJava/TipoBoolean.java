@@ -1,3 +1,5 @@
+package TiposPrimitivosJava;
+
 public class TipoBoolean {
     public static void test() {
         boolean varBoolean = true;

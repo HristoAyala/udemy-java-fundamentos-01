@@ -1,3 +1,5 @@
+package TiposPrimitivosJava;
+
 public class ConversionTiposPrimitivos {
     public static void test() {
         // Covertir tipo String a tipo int

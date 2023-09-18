@@ -1,3 +1,5 @@
+package TiposPrimitivosJava;
+
 public class TipoChar {
     public static void test() {
         // Tipo char (16bits)

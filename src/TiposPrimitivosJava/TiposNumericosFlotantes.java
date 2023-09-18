@@ -1,3 +1,5 @@
+package TiposPrimitivosJava;
+
 public class TiposNumericosFlotantes {
     public static void test() {
         //Tipos primitivos de tipo flotatnte: float (32bits), double(64bits)
